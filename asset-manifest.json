@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hogwarts-express/static/css/main.4ad874f8.css",
+    "main.js": "/hogwarts-express/static/js/main.7c33b56d.js",
+    "index.html": "/hogwarts-express/index.html",
+    "main.4ad874f8.css.map": "/hogwarts-express/static/css/main.4ad874f8.css.map",
+    "main.7c33b56d.js.map": "/hogwarts-express/static/js/main.7c33b56d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ad874f8.css",
+    "static/js/main.7c33b56d.js"
+  ]
+}
