@@ -11,6 +11,7 @@ export const Root = () => {
   useEffect(() => {
     const getHouses = async () => {
       try {
+        // Simulating a delay to display a spinner.
         await new Promise((resolve) => setTimeout(resolve, 2000));
 
         const houses = await hogwartsApis.getAllHouses();
