@@ -3,6 +3,9 @@ import { Box } from "@chakra-ui/react";
 import { HouseGradientBoxProps } from "./type";
 import colorName from "color-name";
 
+const WHITE_COLOR = "rgb(255,255,255)";
+const BLACK_COLOR = "rgb(0,0,0)";
+
 const HouseGradientBox: React.FC<HouseGradientBoxProps> = ({ colors }) => {
   const getRGB = (color: string) => {
     const colors = color.split(" and ");
@@ -12,7 +15,7 @@ const HouseGradientBox: React.FC<HouseGradientBoxProps> = ({ colors }) => {
       const rgbColor = colorName[colors[i].toLowerCase()];
 
       if (!rgbColor) {
-        return "rgb(255,255,255) 0% , rgb(0,0,0) 100%";
+        return `${WHITE_COLOR} 0% , ${BLACK_COLOR} 100%`;
       } else {
         rgbColors.push(rgbColor.join());
       }
